@@ -1,7 +1,7 @@
 --create a database
 CREATE DATABASE apartment_managing;
 
---connect to the 
+--connect to the database
 \c apartment_managing
 
 --create table
