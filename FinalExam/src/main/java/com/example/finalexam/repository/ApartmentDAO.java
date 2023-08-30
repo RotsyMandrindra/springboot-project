@@ -12,7 +12,7 @@ import java.util.Map;
 @Repository
 public class ApartmentDAO implements ApartmentDAOInterface {
 
-    private final Map<Integer, Apartment> apartments = new HashMap<>();
+    private final Map<Object, Apartment> apartments = new HashMap<>();
 
     @Override
     public List<Apartment> getAllApartments() {
